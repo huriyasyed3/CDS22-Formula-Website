@@ -371,7 +371,8 @@ box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 
 .benefits-title {
   color: #003366;
-  font-size: 3.5rem;
+  font-size: 7rem;
+  text-align: center;
   font-weight: bold;
   writing-mode: vertical-lr;
   transform: rotate(180deg);
