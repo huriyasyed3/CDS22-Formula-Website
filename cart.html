@@ -1,0 +1,48 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shopping Cart</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <button style="border: none;">
+      <li class="cart-icon">
+        <img src="assets/icon.jpg" alt="Cart Icon">
+        <span class="cart-count">0</span>
+      </li>
+    </button>
+  </header>
+  <main>
+    <section class="products">
+      <div class="product" data-price="500" data-name="Product 1">
+        <img src="assets/cds_450_v2-1.png" alt="Product 1">
+        <h3>Product 1</h3>
+        <p>Price: Rs. 500</p>
+        <button class="shop-now">Shop Now</button>
+      </div>
+      <div class="product" data-price="700" data-name="Product 2">
+        <img src="assets/cds_112_v2-1.png" alt="Product 2">
+        <h3>Product 2</h3>
+        <p>Price: Rs. 700</p>
+        <button class="shop-now">Shop Now</button>
+      </div>
+    </section>
+    <section class="cart">
+      <h2>Shopping Cart</h2>
+      <ul class="cart-items"></ul>
+      <div class="cart-summary">
+        <p>Total Price: <span class="total-price">0</span></p>
+        <p>Discount: <span class="discount">0</span></p>
+        <p>Final Price: <span class="final-price">0</span></p>
+      </div>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
+
