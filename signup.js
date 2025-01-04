@@ -14,6 +14,7 @@ let createUser = (event)=>{
     createUserWithEmailAndPassword(auth, email.value, password.value)
   .then((res) => {
     console.log("User" , res.user);
+    alert('Message sent successfully')
     
   })
   .catch((error) => {

@@ -41,16 +41,9 @@ ul li a:hover {
   color: #FF1493;
 }
 
-.cart-icon {
-  position: relative;
-}
 
-.cart-icon img {
-  width: 60px;
-  height: 60px;
-  border-radius: 100% grey;
-  
-}
+
+
 
 .cart-count {
   position: absolute;
@@ -62,6 +55,27 @@ ul li a:hover {
   font-weight: bold;
   border-radius: 50% ;
   padding: 2px 5px;
+}
+.shop-now-button {
+  font-family: 'Arial', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  color: #6c567b; /* Replace with your desired purple shade */
+  background-color: transparent;
+  border: 2px solid #6c567b; /* Border color to match text */
+  border-radius: 50px; /* Creates a rounded button */
+  padding: 10px 20px; /* Adjusts size of button */
+  text-transform: uppercase; /* Makes the text uppercase */
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-left: 6%;
+ 
+}
+
+.shop-now-button:hover {
+  background-color: #e762bf; /* Fill background on hover */
+  color: #ffffff; /* Change text to white on hover */
+  border-color: #f0eff196;
 }
 
 /* Science Speak */
@@ -616,7 +630,7 @@ color: #333;
 
 }
 
-.frontproduct {
+.product {
   border: 1px solid #ccc;
   padding: 20px;
   text-align: center;
@@ -628,9 +642,9 @@ color: #333;
   height: 30px;
   width: 100px;
   cursor: pointer;
-  background-color: rgb(234, 248, 108);
+  background-color: orange;
 }
-.frontproduct img {
+.product img {
   max-width: 100%;
 }
 
