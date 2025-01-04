@@ -616,7 +616,7 @@ color: #333;
 
 }
 
-.product {
+.frontproduct {
   border: 1px solid #ccc;
   padding: 20px;
   text-align: center;
@@ -628,8 +628,9 @@ color: #333;
   height: 30px;
   width: 100px;
   cursor: pointer;
+  background-color: rgb(234, 248, 108);
 }
-.product img {
+.frontproduct img {
   max-width: 100%;
 }
 
